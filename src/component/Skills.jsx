@@ -1,6 +1,8 @@
 import React from 'react';
 import {skills} from '../data'
+
 import { CircularProgressbar } from 'react-circular-progressbar';
+
 import 'react-circular-progressbar/dist/styles.css';
 
 const Skills = () => {
