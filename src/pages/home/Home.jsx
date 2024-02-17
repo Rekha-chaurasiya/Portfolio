@@ -1,7 +1,8 @@
 import React from 'react';
 import Profile from "../../assets/home.jpg"
 import { Link } from 'react-router-dom';
-// import {FaArrowRight} from 'react-icons/fa'
+
+import { FaArrowRight } from "react-icons/fa";
 import './home.css'
 const Home = () => {
   return (
@@ -22,7 +23,7 @@ const Home = () => {
         </p>
        <Link to='/about' className='button'>
       More About Me<span className='button__icon'>
-        {/* <FaArrowRight/> */}
+        <FaArrowRight/>
       </span>
       </Link>
 

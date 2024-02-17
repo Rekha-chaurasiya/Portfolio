@@ -2,7 +2,7 @@ import React, { useState ,useEffect} from 'react';
 
 import{themes} from'../data';
 import ThemeItem from './ThemeItem';
-// import{FaCog} from"react-icons/fa";
+import { FaCog } from "react-icons/fa";
 import{BsSun,BsMoon} from'react-icons/bs';
 import"./themes.css";
 
@@ -61,7 +61,7 @@ const Themes = () => {
   <div className={`${showSwitcher?'show-switcher':''} style__switcher`}>
     <div className="style__switcher-toggler" 
     onClick={()=>setShowswitcher(!showSwitcher)}>
-        {/* <FaCog/> */}
+        <FaCog/>
     </div>
     <div className="theme__toggler"onClick={toggleTheme}>
        {theme==='light-theme'? <BsMoon/>:<BsSun/>}
