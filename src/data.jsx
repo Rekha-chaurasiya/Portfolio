@@ -9,9 +9,9 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
+import Work1 from './assets/project-1.png';
 import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
+import Work3 from './assets/project-3.png';
 import Work4 from './assets/project-4.jpeg';
 import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
@@ -150,54 +150,60 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2023 - PRESENT',
+    title:'Staff Consultant Trainee <span> Unicosmosoft private ltd </span>',
+    desc:'Currently working on CIS-Customer Information System Transformation',
   },
 
   {
     id: 2,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2022 - 2023',
+    title: 'MySQl Training <span> Unicosmosoft private ltd. </span>',
+    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+
+    
   },
 
   {
     id: 3,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
+    year: '2022 - 2023',
+    title: 'Internship and Training <span> in core java and advance java </span>',
+    desc: 'Cetpa Infotech Private Limited, Noida',
+
+   
   },
 
   {
     id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
+    year: '2020-2023',
+    title: 'Bachelor Degree <span> AKTU </span>',
+    desc: 'Bansal Institute of Engineering and Technology',
+
   },
 
   {
     id: 5,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    year: '2017-2020',
+    title: 'Diploma Degree <span> BTEUP </span>',
+    desc: 'Government Girls Polytechnic ,Gorkhapur',
   },
 
   {
     id: 6,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+   
+    year: '2015',
+    title: 'High School <span> U.P Board</span>',
+    desc: 'Kasturba Government Girls Inter College,Deoria',
   },
 ];
 
@@ -205,7 +211,7 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '90',
   },
 
   {
@@ -222,32 +228,32 @@ export const skills = [
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: 'React',
+    percentage: '80',
   },
 
   {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
+    title: 'Jquery',
+    percentage: '75',
   },
 
   {
     id: 6,
-    title: 'Jquery',
-    percentage: '50',
+    title: 'MySql',
+    percentage: '80',
   },
 
   {
     id: 7,
-    title: 'Angular',
+    title: 'Java',
     percentage: '65',
   },
 
   {
     id: 8,
-    title: 'React',
-    percentage: '45',
+    title: 'Spring Boot',
+    percentage: '60',
   },
 ];
 
