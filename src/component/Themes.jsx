@@ -61,7 +61,7 @@ const Themes = () => {
   <div className={`${showSwitcher?'show-switcher':''} style__switcher`}>
     <div className="style__switcher-toggler" 
     onClick={()=>setShowswitcher(!showSwitcher)}>
-        <FaCog/>
+        {/* <FaCog/> */}
     </div>
     <div className="theme__toggler"onClick={toggleTheme}>
        {theme==='light-theme'? <BsMoon/>:<BsSun/>}
