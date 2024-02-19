@@ -1,6 +1,6 @@
 import React from 'react';
 import {stats} from'../data';
-// import parse from 'html-react-parser';
+import parse from 'html-react-parser';
 import '../pages/about/about.css'
 
 const Status = () => {
@@ -11,7 +11,7 @@ const Status = () => {
         return(
             <div className='stats__box' key={index}>
                 <h3 className='stats__no'>{no}</h3>
-                {/* <p className='stats__title'>{parse(title)}</p> */}
+                <p className='stats__title'>{parse(title)}</p>
             </div>
         )
     })
